@@ -1,0 +1,44 @@
+.MyComponent {
+    background: yellow;
+    color: black;
+    padding: 1rem;
+    .header01 {
+        background: white;
+        color: black;
+        font-size: 3rem;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+// main page design template
+.div {
+    position: flex;
+    margin-top: 15%;
+    margin-left: 50%; 
+    margin-right: 15%;  
+}
+
+.table {
+    padding: 1px;
+    border-color: red;
+    border-style: dashed;
+    .th {
+        border-style: double;
+        text-align: center;
+        border-color: red
+    }
+    .td_index {
+        border-style: solid;
+        text-align: center;
+        border-color: red
+    }
+    .td_main {
+        border-style: solid;
+        text-align: center;
+        border-color: red
+    }
+    .td {
+        text-align: center;
+    }
+}
